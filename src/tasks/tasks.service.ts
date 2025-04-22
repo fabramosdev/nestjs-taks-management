@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { Task, TaskStatus } from './task.model';
 import { v7 as uuid } from 'uuid';
+import { Task, TaskStatus } from './task.model';
 import { CreateTaskDto } from './dto/create-task.dto';
 
 @Injectable()
