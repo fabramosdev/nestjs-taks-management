@@ -68,5 +68,6 @@ export class TasksService {
     if (task) {
       task.status = status;
     }
+    return task;
   }
 }
